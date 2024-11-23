@@ -57,6 +57,22 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED_BUILDIN_Pin GPIO_PIN_13
+#define LED_BUILDIN_GPIO_Port GPIOC
+#define DAC_CS_Pin GPIO_PIN_3
+#define DAC_CS_GPIO_Port GPIOA
+#define SD_CS_Pin GPIO_PIN_4
+#define SD_CS_GPIO_Port GPIOA
+#define BOOM_COUNTDOWN_Pin GPIO_PIN_0
+#define BOOM_COUNTDOWN_GPIO_Port GPIOB
+#define LED_YELLOW_Pin GPIO_PIN_12
+#define LED_YELLOW_GPIO_Port GPIOB
+#define LED_WHITE_Pin GPIO_PIN_13
+#define LED_WHITE_GPIO_Port GPIOB
+#define LED_BLUE_Pin GPIO_PIN_14
+#define LED_BLUE_GPIO_Port GPIOB
+#define BUTTON_Pin GPIO_PIN_15
+#define BUTTON_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
